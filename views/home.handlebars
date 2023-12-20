@@ -1,0 +1,5 @@
+<h1>{{stock.data.companyName}} ({{stock.data.symbol}}) </h1>
+<br><br>
+{{#each stock.data}}
+  <strong>{{@key}} : {{this}} <br></strong>
+{{/each}}
